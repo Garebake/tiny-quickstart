@@ -33,8 +33,11 @@ export default function PlaidLink() {
   });
 
   return (
-    <button onClick={() => open()} disabled={!ready}>
-      <strong>Link account</strong>
-    </button>
+    <div>
+      <h1>Test Mini Quickstart</h1>
+      <button onClick={() => open()} disabled={!ready}>
+        <strong>Link account</strong>
+      </button>
+    </div>
   );
 }
