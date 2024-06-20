@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     language: 'en',
     products: ['auth'],
     country_codes: ['US'],
-    redirect_uri: process.env.PLAID_SANDBOX_REDIRECT_URI,
+    redirect_uri: process.env.PLAID_REDIRECT_URI,
   });
 
   return res.json(tokenResponse.data);
