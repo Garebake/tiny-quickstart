@@ -4,7 +4,7 @@ import { plaidClient, sessionOptions } from '../lib/plaid';
 export default function Test() {
     return (
         <div>
-            <h1>Test page</h1>
+            <h1>Oauth Redirect URI Test Page</h1>
         </div>
     );
 }
